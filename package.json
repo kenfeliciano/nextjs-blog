@@ -10,7 +10,11 @@
   "dependencies": {
     "date-fns": "^2.16.1",
     "gray-matter": "^4.0.2",
+<<<<<<< HEAD
     "next": "^9.5.5",
+=======
+    "next": "^9.5.4",
+>>>>>>> 6a355ed06d2eb3968f851a41f6b5bc1d361736a1
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "remark": "^12.0.0",
