@@ -29,6 +29,10 @@ export default function Home({ allPostsData }) {
           I did not write any of this content but I did copy and paste it! It's a sample website - you can build a site
           like this on <a href='https://nextjs.org/learn'>the Next.js tutorial</a>.
         </p>
+        <p>
+          I'm leaving this site up so I can experience the joy of Dependabot. Seems there are infrequent vulnerabilities
+          to address. Nice to get that experience!
+        </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
