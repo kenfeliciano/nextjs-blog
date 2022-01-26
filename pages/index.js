@@ -26,8 +26,8 @@ export default function Home({ allPostsData }) {
           musical instrument I can get my hands on.
         </p>
         <p>
-          I did not write any of this content but I did copy and paste it! It's a sample website - you can build a site
-          like this on <a href='https://nextjs.org/learn'>the Next.js tutorial</a>.
+          I did not write any of the content in the first two posts but I did copy and paste it! It's a sample website -
+          you can build a site like this on <a href='https://nextjs.org/learn'>the Next.js tutorial</a>.
         </p>
         <p>
           I'm leaving this site up so I can experience the joy of Dependabot. Seems there are infrequent vulnerabilities
