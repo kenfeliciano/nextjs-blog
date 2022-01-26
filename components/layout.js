@@ -24,11 +24,13 @@ const Layout = ({ children, home }) => {
       <header className={styles.header}>
         {home ? (
           <div>
-            <img
-              src='/images/user-pic.jpg'
-              className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
-              alt={name}
-            />
+            <center>
+              <img
+                src='/images/user-pic.jpg'
+                className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
+                alt={name}
+              />
+            </center>
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </div>
         ) : (
