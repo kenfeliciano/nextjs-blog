@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const name = 'Ken Feliciano'
 export const siteTitle = 'Next.js Sample Website'
@@ -25,10 +26,12 @@ const Layout = ({ children, home }) => {
         {home ? (
           <div>
             <center>
-              <img
+              <Image
                 src='/images/user-pic.jpg'
                 className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
                 alt={name}
+                height={144}
+                width={144}
               />
             </center>
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
@@ -36,10 +39,12 @@ const Layout = ({ children, home }) => {
         ) : (
           <div>
             <Link href='/'>
-              <img
+              <Image
                 src='/images/user-pic.jpg'
                 className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
                 alt={name}
+                height={108}
+                width={108}
               />
             </Link>
             <h2 className={utilStyles.headingLg}>
