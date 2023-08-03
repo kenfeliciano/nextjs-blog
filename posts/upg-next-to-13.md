@@ -21,7 +21,7 @@ Also, updated `remark` and `remark-html` to latest.
 
 ### Version Compare
 
-Oh my, `remark` does not natively support tables. I didn't realize they were non-standard. I've been using them so much. I'm trying the least effort solution of using `remark-gfm` that I found in a [post](https://unifiedjs.com/learn/recipe/remark-table/).
+Oh my, `remark` does not natively support tables. I didn't realize they were non-standard as I've been using them so much. I'm trying the least effort solution of using `remark-gfm` that I found in a [post](https://unifiedjs.com/learn/recipe/remark-table/). That worked just fine. I added a tiny bit of CSS so it wasn't all scrunched together.
 
 | Package            | v12     | latest   |
 | ------------------ | ------- | -------- |
