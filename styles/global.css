@@ -10,6 +10,9 @@ body {
 
 * {
   box-sizing: border-box;
+  --muted: #4b5563;
+  --primary-rgb: 0, 120, 137;
+  --th-opacity: 0.5;
 }
 
 a {
@@ -24,4 +27,21 @@ a:hover {
 img {
   max-width: 100%;
   display: block;
+}
+
+table {
+  width: 100%;
+  border: 2px solid var(--muted);
+}
+th,
+td {
+  border: 1px solid var(--muted);
+}
+th,
+td {
+  padding: 0.5rem;
+}
+th {
+  border-bottom: 2px solid var(--muted);
+  background-color: rgba(var(--primary-rgb), var(--th-opacity));
 }
